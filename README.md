@@ -1,1 +1,31 @@
-# MAI_EXP1
+# SOLUTION-TO-A-SYSTEM-OF-LINEAR-EQUATIONS
+## Name: Roshini A
+## Register Number: 212224230233
+## Aim:
+To write a python program to find a solution to a system of linear equations.
+## Equipment’s required:
+1. 	Hardware – PCs
+2. 	Anaconda – Python 3.7 Installation / Moodle-Code Runner
+## Algorithm:
+### Step 1: 
+Import the numpy module to use the built-in functions for calculation
+### Step 2: 
+Prepare the lists from each linear equations and assign in np.array()
+### Step 3: 
+Using the np.linalg.solve(), we can find the solutions.
+### Step 4: 
+End the program
+## Program:
+```
+import numpy as np
+A = np.array([[1, 3],[2, 5]])
+B = np.array([5, -3])
+solution = np.linalg.solve(A, B)
+print(solution)
+
+```
+## Output:
+<img width="1272" height="263" alt="image" src="https://github.com/user-attachments/assets/cf708df2-3ed6-4216-895b-3cbfce607360" />
+
+## Result: 
+Thus the solutions for the linear equations are successfully solved using python program
